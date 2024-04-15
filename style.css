@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #777; /* Light border color */
+    border-radius: 5px;
+    background-color: #333; /* Dark input background color */
+    color: #fff; /* Light text color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .active {
+    border: 2px solid green;
+  }
+  
